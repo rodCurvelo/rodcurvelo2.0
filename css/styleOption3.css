@@ -1,0 +1,140 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .btn-floating.btn-large {
+   width: 90px;
+   height: 90px;
+ }
+ 
+ .twitterI {
+   margin-top: 10px;
+ }
+ 
+ .socialI {
+   border-color: black;
+   color: black;
+   background-color: black;
+ }
+ 
+ 
+ .whyRaven {
+   font-family: sans-serif;
+   font-weight: 'Extra-Bold' !important;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+
+ textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.btn_playground_opt {
+    margin-left: 1%;
+    border-radius: 6px;
+}
+
+textarea:active {
+    color: none;
+}
+
+.t_a_output {
+    margin-bottom: 3%;
+    border-radius: 7px;
+}
+
+.Playground-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 0.625rem;
+}
+
+.Playground-input, .Playground-output {
+    padding: 0;
+    margin: 0;
+    font-family: Menlo, monospace;
+    font-size: 0.875rem;
+}
+
+.selector_container {
+    padding-left: 0px;
+    border-radius: 6px;
+}
+
+.btn_select_container {
+    border-radius: 6px;
+}
+
+.try, .open {
+    font-weight: 900;
+}
+
+.btn_download {
+    border-radius: 6px;
+    height: 42px;
+}
+ 
+ .MainLogo {
+   max-width: 50%;
+   height:auto;
+   margin-left: 7%;
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }

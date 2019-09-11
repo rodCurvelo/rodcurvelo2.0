@@ -1,0 +1,93 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.btn-floating.btn-large {
+  width: 90px;
+  height: 90px;
+}
+
+.twitterI {
+  margin-top: 10px;
+}
+
+.socialI {
+  border-color: black;
+  color: black;
+  background-color: black;
+}
+
+.ravenIconHome {
+  width: 10%;
+}
+
+.title_home {
+  font-size: 919%;
+  font-family: sans-serif;
+  /* Rockwell Nova Extra Bold */
+  font-weight: 'Extra-Bold' !important;
+}
+
+
+.whyRaven {
+  font-family: sans-serif;
+  font-weight: 'Extra-Bold' !important;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.MainLogo {
+margin-left: 19%;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
